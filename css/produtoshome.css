@@ -69,53 +69,17 @@ button {
   border: none;
 }
 
-.login_button {
-  border-color: var(--azul-destaque);
-  background-color: var(--texto-destaque);
-  height: 3rem;
-  width: 12rem;
-  font-size: 1rem;
-  color: var(--azul-destaque);
-}
+/* Área de produtos */
 
-/* Banner */
-
-.banner {
-  background-image: url(/img/background.png);
-  width: 100vw;
-  height: 40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.banner_conteudo {
-  display: flex;
-  flex-direction: column;
-  padding: 10rem 10rem;
-  gap: 1rem;
-}
-
-.banner_texto__principal,
-.banner_texto__descricao {
-  color: var(--texto-destaque);
-  font-size: 52px;
-}
-
-.banner_texto__descricao {
-  font-size: 22px;
-}
-
-.banner_button,
+.adicionarproduto_button,
 .faleconosco_button {
   border-style: none;
   background-color: var(--azul-destaque);
-  height: 4rem;
-  width: 12rem;
+  height: 3rem;
+  padding: 1rem;
   font-size: 1rem;
   color: var(--texto-destaque);
 }
-
-/* Área de produtos */
 
 .produtos {
   display: flex;

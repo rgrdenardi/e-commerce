@@ -69,54 +69,47 @@ button {
   border: none;
 }
 
-.login_button {
-  border-color: var(--azul-destaque);
-  background-color: var(--texto-destaque);
-  height: 3rem;
-  width: 12rem;
-  font-size: 1rem;
-  color: var(--azul-destaque);
-}
+/* Área de login */
 
-/* Banner */
-
-.banner {
-  background-image: url(/img/background.png);
-  width: 100vw;
+.area_produto {
   height: 40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.banner_conteudo {
-  display: flex;
-  flex-direction: column;
-  padding: 10rem 10rem;
-  gap: 1rem;
-}
-
-.banner_texto__principal,
-.banner_texto__descricao {
-  color: var(--texto-destaque);
-  font-size: 52px;
-}
-
-.banner_texto__descricao {
-  font-size: 22px;
-}
-
-.banner_button,
-.faleconosco_button {
-  border-style: none;
-  background-color: var(--azul-destaque);
-  height: 4rem;
-  width: 12rem;
-  font-size: 1rem;
-  color: var(--texto-destaque);
 }
 
 /* Área de produtos */
 
+.produto_destaque {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.produto_descricao {
+  width: 35%;
+}
+
+.produto_atual {
+  width: 30%;
+}
+
+.img_destaque {
+  width: 100%;
+  height: 30rem;
+}
+
+.nome_destaque {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.preco_destaque {
+  font-weight: bold;
+}
+.descricao_destaque {
+  width: 70%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
 .produtos {
   display: flex;
   justify-content: center;
@@ -129,7 +122,7 @@ button {
   justify-content: space-between;
   margin: 2rem 22rem 0;
   width: 76rem;
-  height: 6rem;
+  height: 4rem;
 }
 
 .produtos_titulo__vertudo {
@@ -143,9 +136,9 @@ button {
 }
 
 .produtos_titulo__1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
-
 /* Fale conosco */
 
 .faleconosco {
@@ -209,9 +202,13 @@ button {
 }
 
 .faleconosco_button {
-  width: 10rem;
-  height: 10rem;
-  padding: 0.5rem;
+  border-style: none;
+  background-color: var(--azul-destaque);
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--texto-destaque);
+  width: 12rem;
 }
 
 .footer {
